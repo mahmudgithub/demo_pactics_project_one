@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% block content %}
+
+
+{% for City in sok %}
+
+<h2><a>Name: {{ City.name }}</a></h2>
+<h2 ><a>state: {{ City.state }}</a></h2 >
+<h2 ><a>gender: {{ City.gender }}</a></h2 >
+<h2 ><a>age: {{ City.age }}</a></h2 >
+<h2 ><a>age: {{ City.roll }}</a></h2 >
+
+{% endfor %}
+
+
+{% endblock content %}
